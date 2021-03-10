@@ -1,0 +1,8 @@
+name: express-app
+services:
+- environment_slug: node-js
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: ronak2898/express-app
+  name: express-app
